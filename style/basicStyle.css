@@ -1,0 +1,47 @@
+/* Variables */
+
+:root {
+    /* Colores */
+    --pink: #FEC7D7;
+    --softPurple: #A786DF;
+    --verySoftPurple: #D9D4E7;
+    --softAquamarine: #85D1CE;
+    --softGreyishBlue: #91C1D7;
+    --white: #FFFFFE;
+    --black:#0E172C;
+    --gray:#535353;
+}
+
+html {
+    box-sizing: border-box;
+    scroll-snap-type: y mandatory;
+}
+
+/* Fonts */
+h1 { 
+    font-size: 24px;
+    font-family:'Nunito', sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+h2 { 
+    font-size: 18px;
+    font-family:'Nunito', sans-serif; 
+    font-weight: 700; 
+    text-align: center;
+}
+h3 { 
+    font-size: 18px;
+    font-family:'Nunito', sans-serif; 
+    font-weight: 600; 
+}
+h4 { 
+    font-size: 12px;
+    font-family:'Nunito', sans-serif; 
+    font-weight: 600; 
+}
+p{
+    font-size: 16px;
+    font-family:'Nunito', sans-serif; 
+    font-weight: 400; 
+}

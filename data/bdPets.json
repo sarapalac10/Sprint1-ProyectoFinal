@@ -1,0 +1,147 @@
+{
+    "cats": [
+        {
+            "id": 1,
+            "nombre": "Matilde",
+            "raza": "British Shorthair",
+            "edad": "6 meses",
+            "dirección": "4140 Parker Rd. Allentown, New Mexico 31134",
+            "personalidad": [
+                "Juguetón",
+                "Inquieto",
+                "Tierno"
+            ],
+            "historia": "Matilde es la mejor guarda espaldas, siempre esta hay para conversar y recibirá cada día con un fuerte cariño. Fue rescatada y busco una persona que le pueda dar todo el amor que ella necesita.",
+            "imagen": "../img/cat-matilde.png",
+            "genero": "hembra",
+            "categoria": "gato",
+            "usuario": "Juan Jesús",
+            "imgusuario": "../img/user-juan-jesus.png"
+        },
+        {
+            "id": 2,
+            "nombre": "Pelusa",
+            "raza": "Birmano",
+            "edad": "año1",
+            "personalidad": [
+                "personalidad1",
+                "personalidad2",
+                "personalidad3"
+            ],
+            "historia": "",
+            "imagen": "../img/cat-pelusa.png",
+            "genero": "hembra",
+            "categoria": "gato",
+            "usuario": "Juan Jesús",
+            "imgusuario": "../img/user-juan-jesus.png"
+        },
+        {
+            "id": 3,
+            "nombre": "Kity",
+            "raza": "Bombay",
+            "edad": "año1",
+            "personalidad": [
+                "personalidad1",
+                "personalidad2",
+                "personalidad3"
+            ],
+            "historia": "",
+            "imagen": "../img/cat-kity.png",
+            "genero": "hembra",
+            "categoria": "gato",
+            "usuario": "Juan Jesús",
+            "imgusuario": "../img/user-juan-jesus.png"
+        },
+        {
+            "id": 4,
+            "nombre": "Bombón",
+            "raza": "Gato americano",
+            "edad": "año1",
+            "personalidad": [
+                "personalidad1",
+                "personalidad2",
+                "personalidad3"
+            ],
+            "historia": "",
+            "imagen": "../img/cat-bombon.png",
+            "genero": "macho",
+            "categoria": "gato",
+            "usuario": "Juan Jesús",
+            "imgusuario": "../img/user-juan-jesus.png"
+        }
+        
+    ],
+    "dogs": [
+        {
+            "id": 1,
+            "nombre": "Chester",
+            "raza": "Golden Retriever",
+            "anio": "año1",
+            "personalidad": [
+                "personalidad1",
+                "personalidad2",
+                "personalidad3"
+            ],
+            "historia": "",
+            "imagen": "../img/dog-chester.png",
+            "genero": "macho",
+            "categoria": "perro",
+            "usuario": "María Dolores",
+            "imgusuario": "../img/user-maria-dolores.png"
+        },
+        {
+            "id": 2,
+            "nombre": "Papi",
+            "raza": "Chihuahua",
+            "edad": "año1",
+            "personalidad": [
+                "personalidad1",
+                "personalidad2",
+                "personalidad3"
+            ],
+            "historia": "",
+            "imagen": "../img/dog-papi.png",
+            "genero": "macho",
+            "categoria": "perro",
+            "usuario": "María Dolores",
+            "imgusuario": "../img/user-maria-dolores.png"
+        },
+        {
+            "id": 3,
+            "nombre": "Rocky",
+            "raza": "Rottweiler",
+            "edad": "3 meses",
+            "dirección": "4140 Parker Rd. Allentown, New Mexico 31134" ,
+            "personalidad": [
+                "cariñoso",
+                "inquieto",
+                "juguetón"
+            ],
+            "historia": "Rocky es un perrito muy lindo y cariñoso, tiene 5 hermanitos más y por cuestiones de espacio y tiempo no podremos cuidar a todos, nuestra misión es encontrar la familia ideal para él y seguro que tú eres la persona indicada.",
+            "imagen": "../img/dog-rocky.png",
+            "genero": "macho",
+            "categoria": "perro",
+            "usuario": "María Dolores",
+            "imgusuario": "../img/user-maria-dolores.png"
+        },
+        {
+            "id": 4,
+            "nombre": "Pelusa",
+            "raza": "Bichón frisé",
+            "anio": "año1",
+            "personalidad": [
+                "personalidad1",
+                "personalidad2",
+                "personalidad3"
+            ],
+            "historia": "",
+            "imagen": "../img/dog-pelusa.png",
+            "genero": "macho",
+            "categoria": "perro",
+            "usuario": "María Dolores",
+            "imgusuario": "../img/user-maria-dolores.png"
+        }
+        
+    ]
+
+}

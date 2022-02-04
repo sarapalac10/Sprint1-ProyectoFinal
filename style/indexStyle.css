@@ -1,0 +1,281 @@
+body {
+    background-color: var(--pink);
+    border: solid 1px red;
+}
+
+@media (min-width: 400px) {
+    body {
+        background-color: var(--pink);
+        border: solid 1px red;
+        width: 60%;
+        margin: auto;
+    }
+}
+
+/*LOGO INICIO */
+#icono1 {
+    display: none;
+    margin-left: 50%;
+    margin-top: 50%;
+}
+
+#icono2 {
+    display: none;
+    margin-left: 40%;
+    margin-top: 40%;
+}
+
+/*Páginas de inicio*/
+.container-inicio {
+    margin-top: 25%;
+    display:flex;
+    flex-direction: column;
+}
+
+.content-inicio{
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+}
+
+.img-inicio {
+    justify-content: center;
+    align-self: center;
+}
+
+.btn-inicio-sig{
+    display:flex;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 25%;
+    padding-right: 25%;
+    margin: auto;
+    background-color: var(--black);
+    border-radius: 20px;
+}
+
+.a-inicio-sig{
+    text-decoration: none;
+    color: var(--white);
+}
+
+/* HEADER */
+header{
+    margin-top: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container-category-btn{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    border: solid 1px green;
+    align-items: center;
+}
+
+.category-btn{
+    align-self: center;
+    justify-self: center;
+    background-color: var(--black);
+    width: 155px;
+    height: 80px;
+    border-radius: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    opacity: 0.70;
+}
+
+.category-icon {
+    border-radius: 50%;
+    background-color: var(--softAquamarine);
+    margin-top: 40%;
+}
+
+h1{
+    margin-bottom: 3rem;
+}
+
+h3{
+    color: var(--white);
+    margin-top: auto;
+    margin-bottom: 2rem;
+}
+
+.category-btn:hover {
+    opacity: 1;
+}
+
+/* FOOTER */
+
+footer{
+    background-color: var(--white);
+    height: 72px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center;
+    color: var(--white);
+}
+
+footer a{
+    color: var(--white);
+    text-decoration: none;
+    padding: 0.25rem 1rem;
+    text-align: center;
+    font-family: 'Nunito', sans-serif ;
+}
+
+a:visited , a:focus , a:active, a:link{
+    color: var(--white);
+}
+
+a.logo-selected {
+    background-color: var(--black);
+    border-radius: 20px;
+    color: var(--softAquamarine);
+}
+
+/* PERFIL */
+label{
+    display: block;
+    margin: auto;
+}
+
+.profileTitle{
+    font-weight: bold;
+    text-align: left;
+    margin-left: 10%;
+    margin-top: 20px;
+}
+
+.profileFoto{
+    border-radius: 50%;
+    margin-right: 50%;
+    margin-left: 40%;
+}
+
+.profileNombre{
+    width: max-content;
+    font-size: 24px;
+    margin-bottom: 0;
+    margin: auto;
+}
+
+.btnEditar{
+    background-color: transparent;
+    border: none;
+    width: max-content;;
+    font-size: 15px;
+    padding: 0;
+    margin-bottom: 2rem;
+    margin-right: 50%;
+    margin-left: 40%;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 1;
+}
+
+.form-control{
+    border: solid 1px var(--black);
+}
+
+#inputId{
+    display: none;
+}
+
+.enviarProfile{
+    width: max-content;
+    color: var(--white);
+    display:flex;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 15%;
+    padding-right: 15%;
+    margin: auto;
+    background-color: var(--black);
+    border-radius: 20px;
+    margin-bottom: 3rem;
+}
+
+/* CARDS DEL INICIO */
+
+.card{
+    border: none;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.card-img{
+    border-radius: 15px;
+    box-shadow: -10px -10px 5px black inset;
+}
+
+.card-img-overlay{
+    position: absolute;
+    padding-top: 98%;
+    text-shadow: 1px 1px 3px black, 0 0 1em black, 0 0 0.2em black;
+    line-height: 1px;
+}
+
+.container-fluid{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 20px;
+}
+
+/* CHAT*/
+
+.messageHeader{
+    margin-top: 0;
+    height: 144px;
+    background-color: var(--white);
+}
+
+.btnBack{
+    background-color:transparent;
+    border: none;
+    margin-left: 10%;
+}
+
+.messageFoto{
+    position: relative;
+    margin-left: 20%;
+    margin-top: 1rem;
+}
+
+.messageName{
+    margin-top: 0.5rem;
+    color: var(--black);
+    text-align: center;
+}
+
+#containerChat {
+    width: 90%;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.owner {
+    background-color: var(--gray);
+    border-radius: 20px;
+    color: var(--white);
+    margin-right: 40%;
+    padding: 2px;
+    margin-top: 0.5rem;
+}
+
+.person {
+    background-color: var(--white);
+    border-radius: 20px;
+    margin-left: 40%;
+    padding: 2px;
+    margin-top: 0.5rem;
+}
+
+

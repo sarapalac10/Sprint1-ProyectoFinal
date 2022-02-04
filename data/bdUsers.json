@@ -1,0 +1,11 @@
+{
+  "users": [
+    {
+      "imagen": "",
+      "nombre": "Juan",
+      "apellido": "Fernandez",
+      "correo": "juan@correo.com",
+      "id": 1
+    }
+  ]
+}
