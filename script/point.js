@@ -4,4 +4,4 @@ export const getPoint = async (url)  => {
     return data;
 }
 
-
+export default getPoint

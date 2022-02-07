@@ -5,11 +5,11 @@
             "nombre": "Matilde",
             "raza": "British Shorthair",
             "edad": "6 meses",
-            "dirección": "4140 Parker Rd. Allentown, New Mexico 31134",
+            "direccion": "4140 Parker Rd. Allentown, New Mexico 31134",
             "personalidad": [
-                "Juguetón",
-                "Inquieto",
-                "Tierno"
+                "juguetón",
+                "inquieto",
+                "tierno"
             ],
             "historia": "Matilde es la mejor guarda espaldas, siempre esta hay para conversar y recibirá cada día con un fuerte cariño. Fue rescatada y busco una persona que le pueda dar todo el amor que ella necesita.",
             "imagen": "../img/cat-matilde.png",
@@ -22,13 +22,13 @@
             "id": 2,
             "nombre": "Pelusa",
             "raza": "Birmano",
-            "edad": "año1",
+            "edad": "2 años",
             "personalidad": [
-                "personalidad1",
-                "personalidad2",
-                "personalidad3"
+                "inquieto",
+                "jugueton",
+                "cariñoso"
             ],
-            "historia": "",
+            "historia": "Fue rescatada en una inundación, llevaba 5 días en un árbol rodeada de agua cuando lo encontraron",
             "imagen": "../img/cat-pelusa.png",
             "genero": "hembra",
             "categoria": "gato",
@@ -39,13 +39,13 @@
             "id": 3,
             "nombre": "Kity",
             "raza": "Bombay",
-            "edad": "año1",
+            "edad": "9 meses",
             "personalidad": [
-                "personalidad1",
-                "personalidad2",
-                "personalidad3"
+                "juguetón",
+                "cariñoso",
+                "tierno"
             ],
-            "historia": "",
+            "historia": "Esta es una gatita VIH positiva, pero de excelente salud. Lleva más de un año buscando una familia que la ame, es muy cariñosa y juguetona.",
             "imagen": "../img/cat-kity.png",
             "genero": "hembra",
             "categoria": "gato",
@@ -56,13 +56,13 @@
             "id": 4,
             "nombre": "Bombón",
             "raza": "Gato americano",
-            "edad": "año1",
+            "edad": "1 año",
             "personalidad": [
-                "personalidad1",
-                "personalidad2",
-                "personalidad3"
+                "cariñoso",
+                "tierno",
+                "juguetón"
             ],
-            "historia": "",
+            "historia": "Fue rescatado en una construcción abandonada, es un poco feral pero juicioso y merece una oportunidad para tener una familia.",
             "imagen": "../img/cat-bombon.png",
             "genero": "macho",
             "categoria": "gato",
@@ -76,13 +76,14 @@
             "id": 1,
             "nombre": "Chester",
             "raza": "Golden Retriever",
-            "anio": "año1",
+            "edad": "2 meses",
+            "direccion": "4140 Parker Rd. Allentown, New Mexico 31134" ,
             "personalidad": [
-                "personalidad1",
-                "personalidad2",
-                "personalidad3"
+                "inquieto",
+                "cariñoso",
+                "juguetón"
             ],
-            "historia": "",
+            "historia": "Es un perrito muy cariñoso, que fue regalado por su anterior dueño, es tierno y muy juguetón y busca una familia a quien cuidar.",
             "imagen": "../img/dog-chester.png",
             "genero": "macho",
             "categoria": "perro",
@@ -93,13 +94,14 @@
             "id": 2,
             "nombre": "Papi",
             "raza": "Chihuahua",
-            "edad": "año1",
+            "edad": "2 años",
+            "direccion": "4140 Parker Rd. Allentown, New Mexico 31134" ,
             "personalidad": [
-                "personalidad1",
-                "personalidad2",
-                "personalidad3"
+                "inquieto",
+                "tierno",
+                "juguetón"
             ],
-            "historia": "",
+            "historia": "Papi fue rescatado en un incendio en el que perdió a su familia, desde entonces le gusta ir al cementerio a visitar a sus anteriores humanos.",
             "imagen": "../img/dog-papi.png",
             "genero": "macho",
             "categoria": "perro",
@@ -111,7 +113,7 @@
             "nombre": "Rocky",
             "raza": "Rottweiler",
             "edad": "3 meses",
-            "dirección": "4140 Parker Rd. Allentown, New Mexico 31134" ,
+            "direccion": "4140 Parker Rd. Allentown, New Mexico 31134" ,
             "personalidad": [
                 "cariñoso",
                 "inquieto",
@@ -128,15 +130,16 @@
             "id": 4,
             "nombre": "Pelusa",
             "raza": "Bichón frisé",
-            "anio": "año1",
+            "edad": "5 meses",
+            "direccion": "4140 Parker Rd. Allentown, New Mexico 31134" ,
             "personalidad": [
-                "personalidad1",
-                "personalidad2",
-                "personalidad3"
+                "cariñoso",
+                "juguetón",
+                "inquieto"
             ],
-            "historia": "",
+            "historia": "Pelusa fue abandonada por su familia que se mudó de la ciudad y la dejo amarrado en el patio. Busca una familia que le devuelva la confianza en los humanos.",
             "imagen": "../img/dog-pelusa.png",
-            "genero": "macho",
+            "genero": "hembra",
             "categoria": "perro",
             "usuario": "María Dolores",
             "imgusuario": "../img/user-maria-dolores.png"

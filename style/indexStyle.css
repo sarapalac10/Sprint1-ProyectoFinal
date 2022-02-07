@@ -1,12 +1,14 @@
 body {
     background-color: var(--pink);
-    border: solid 1px red;
+    /* border: solid 1px red; */
+    width: 60%;
+    margin: auto;
 }
 
-@media (min-width: 400px) {
+@media (max-width: 768px) {
     body {
         background-color: var(--pink);
-        border: solid 1px red;
+        /* border: solid 1px red; */
         width: 60%;
         margin: auto;
     }
@@ -69,7 +71,7 @@ header{
 .container-category-btn{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    border: solid 1px green;
+    /* border: solid 1px green; */
     align-items: center;
 }
 
@@ -137,6 +139,11 @@ a.logo-selected {
 }
 
 /* PERFIL */
+
+.main-profile{
+    height: 350px;
+}
+
 label{
     display: block;
     margin: auto;
@@ -153,12 +160,14 @@ label{
     border-radius: 50%;
     margin-right: 50%;
     margin-left: 40%;
+    width: 100px;
+    height: 100px;
 }
 
 .profileNombre{
     width: max-content;
     font-size: 24px;
-    margin-bottom: 0;
+    margin-bottom: 10px;
     margin: auto;
 }
 
@@ -202,9 +211,16 @@ form{
     margin-bottom: 3rem;
 }
 
+#formularioPerfil {
+    width: 450px;
+    margin: auto;
+    visibility: hidden;
+}
+
 /* CARDS DEL INICIO */
 
 .card{
+    width: max-content;
     border: none;
     margin-left: 10px;
     margin-right: 10px;
@@ -226,6 +242,10 @@ form{
     margin-left: 10%;
     margin-right: 10%;
     margin-top: 20px;
+}
+
+card {
+    width: max-content;  
 }
 
 /* CHAT*/
@@ -278,4 +298,45 @@ form{
     margin-top: 0.5rem;
 }
 
+/* EMPTY CHAT */
 
+.btnBack-empty{
+    background-color:transparent;
+    border: none;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+.emptyChat-mensaje{
+    text-align: center;
+    margin-top: 20%;
+}
+
+.emptyChat-mensajes-barra{
+    margin-left: 5%;
+    margin-bottom: 100px;
+}
+
+.emptyChat-footer{
+    background-color: transparent;
+    margin-top: 50px;
+    bottom: 0;
+}
+
+.emptyChat-teclado{
+    margin-top: 220px;
+    width: 90%;
+}
+
+@media (min-width: 765px) {
+    .emptyChat-footer{
+        background-color: transparent;
+        margin-top: 0px;
+        bottom: 0;
+    }
+    
+    .emptyChat-teclado{
+        margin-top: 90px;
+        width: 90%;
+    }
+}

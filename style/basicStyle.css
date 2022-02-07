@@ -12,6 +12,8 @@
     --gray:#535353;
 }
 
+/* tablet-portrait: min:768px; */
+
 html {
     box-sizing: border-box;
     scroll-snap-type: y mandatory;

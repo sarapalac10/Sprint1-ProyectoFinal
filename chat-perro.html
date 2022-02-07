@@ -16,26 +16,23 @@
 </head>
 <body>
 
-    <header>
-        <h1>Mascotas Favoritas</h1>
-    </header>
+    <section class="messageHeader">
+        <a href="./detail.html"><button class="btnBack"><img src="./img/logo-back.png" alt="logo atrás"></button></a>
+            <img class="messageFoto" src="./img/user-maria-dolores.png" width="64px">
+            <h3 class="messageName">María Dolores</h3>
+    </section>
 
-    <main>
-        <section class="container-fluid py-4 ms-a">
-            <div class="row row-cols-1 row-cols-sm-3 row-cols-md-3  row-cols-lg-3 g-3 cardSection" id="renderFavoritos">
-            </div>
-        </section>
+    <main id="containerChat">
+
     </main>
 
     <footer>
         <a href="./inicio4.html"><img src="./img/logo-home.png" alt="logo-home"> Home</a>
-        <a href="./messages.html"><img src="./img/logo-message.png" alt="logo-message"> Mensajes</a>
-        <a href="./favorites.html" class="logo-selected" ><img src="./img/logo-fav-selected.png" alt="logo-fav"> Favoritos</a>
+        <a href="./messages.html" class="logo-selected" ><img src="./img/logo-message-selected.png" alt="logo-message"> Mensajes</a>
+        <a href="./favorites.html"><img src="./img/logo-fav.png" alt="logo-fav"> Favoritos</a>
         <a href="./profile.html"><img src="./img/logo-perfil.png" alt="logo-perfil"> Perfil</a>        
     </footer>
 
-
-    <script src="./script/like.js"></script>
-
+    <script src="script/chat.js" type="module"></script>
 </body>
 </html>

@@ -9,20 +9,21 @@
             "p2": "¿Cuál es la dirección?",
             "r2": "Es en el centro de adopción de la fundación: 4140 Parker Rd. Allentown, New Mexico 31134. Puedes venir mañana en la tarde",
             "dP": "Gracias, ese día iré.",
-            "dO": "Te esperamos con ansias...",
-            "name": "María Dolores",
-            "foto": "../img/user-maria-dolores.png"
+            "dO": "Te esperamos con ansias..."
         }
         
     ],
     "chatDog": [
         {
             "id": 1,
-            "saludo": "¡Hola! Me encantaría adoptar a.",
-            "respuesta1": "¿Puedo conocerlo?",
-            "pregunta1": "¿Cuáles los requisitos para adoptar?",
-            "pregunta2": "¿Cuál es la dirección?",
-            "despedida": "Gracias, ese día iré."
+            "sP": "¡Hola! Me encantaría realizar una adopción",
+            "sO": "¡Hola! Qué bueno que te interese adoptar. Vamos a encontrar un amigo para ti.",
+            "p1": "¿Cuáles los requisitos para adoptar?",
+            "r1": "Llenar el formulario y asistir a una pequeña entrevista",
+            "p2": "¿Cuál es la dirección?",
+            "r2": "Es en el centro de adopción de la fundación: 4140 Parker Rd. Allentown, New Mexico 31134. Puedes venir mañana en la tarde",
+            "dP": "Gracias, ese día iré.",
+            "dO": "Te esperamos con ansias..."
         }
         
     ]

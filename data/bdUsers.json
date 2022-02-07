@@ -1,10 +1,10 @@
 {
   "users": [
     {
-      "imagen": "",
+      "imagen": "../img/user-juan-mendez.png",
       "nombre": "Juan",
-      "apellido": "Fernandez",
-      "correo": "juan@correo.com",
+      "apellido": "Méndez",
+      "email": "juanmendez@gmai.com",
       "id": 1
     }
   ]
