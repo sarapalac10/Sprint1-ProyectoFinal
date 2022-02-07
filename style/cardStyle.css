@@ -1,4 +1,16 @@
-body, header{
+.detail{
+    width: 100%;
+    margin: auto;
+}
+
+@media (min-width: 376px) {
+    .detail{
+        width: 55%;
+        margin: auto;
+    }
+}
+
+header{
     margin-top: 0;
 }
 
@@ -18,6 +30,7 @@ body, header{
     display: flex;
     margin-right: auto;
     margin-left: auto;
+    bottom: -50px;
 }
 
 #detailsMain {
@@ -72,7 +85,6 @@ body, header{
     right: 0;
     top: 0.25px;
 }
-
 
 .gender {
     width: 32px;
@@ -154,6 +166,10 @@ body, header{
     border: none;
 }
 
+.conPersonality{
+    align-items: center ;
+}
+
 .boxPerso {
     width: 92px;
     height: 92px;
@@ -164,13 +180,6 @@ body, header{
     margin: 8px 15px 8px 25px;
     text-align: center;
     align-items: center;
-}
-
-.contPersonalidad{
-    /* border: solid 1px pink; */
-    width: max-content;
-    margin-right: auto;
-    margin-left: auto;
 }
 
 .textPerso {
@@ -240,33 +249,34 @@ body, header{
 }
 
 .btnDetails {
-    width: max-content;
+    width: fit-content;
     color: var(--white);
-    display:flex;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
     padding-left: 15%;
-    padding-right: 15%;
-    margin: auto;
+    padding-right: 10%;
     background-color: var(--black);
     border-radius: 20px;
-    margin-bottom: 3rem;
+    margin-top: 20px;
     font-family:'Nunito', sans-serif;
     line-height: 16px;
     text-decoration: none;    
 }
 
 .detailNav {
-    margin-top:74px;
-    margin-bottom: 16px;  
+    margin-bottom: 150px;  
 }
 
 footer{
     margin-bottom:10px;
-
+    display: block;
 }
 
-@media (max-width: 376px){
+@media (min-width: 376px){
+    footer{
+        margin-bottom:0px;
+        display: block;
+    }
 
     .gender {
         position: relative;
@@ -339,7 +349,8 @@ footer{
     }
     
     .detailNav {
-        margin-top:32px;
+        margin-top:0px;
         margin-bottom: 16px;
     }
+
 }
